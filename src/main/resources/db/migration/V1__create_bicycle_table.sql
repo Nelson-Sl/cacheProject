@@ -1,0 +1,6 @@
+CREATE TABLE bicycle (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    brand VARCHAR(255) NOT NULL,
+    price DECIMAL(9,2) NOT NULL,
+    description VARCHAR(255) NOT NULL
+);
